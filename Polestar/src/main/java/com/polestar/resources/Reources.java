@@ -1,5 +1,5 @@
 package com.polestar.resources;
 
 public class Reources {
-	public PlaceResource placeResource;
+	public static PlaceResource placeResource;
 }

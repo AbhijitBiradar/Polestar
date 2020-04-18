@@ -11,4 +11,3 @@ Scenario Outline: Verify if Place is being Succesfully added using AddPlaceAPI
 Examples:
 	|name 	 | language |address		   |
 	|AAhouse |  English |World cross center|
-	|BBhouse | Spanish  |Sea cross center  |

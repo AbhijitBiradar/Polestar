@@ -11,13 +11,26 @@ public class APIConfig {
 		propertyFileUtil.loadPropertyFile(propertyFilePath);
 	}
 	public String getBaseURI() {
-		//System.out.println("Loading "+ TestConstants.URL +" from property File");
+		System.out.println("Loading "+ TestConstants.BASE_URI +" from property File");
 		String url = propertyFileUtil.getPropertyValue(TestConstants.BASE_URI);
 		if (url != null) {
 			System.out.println(TestConstants.BASE_URI +" loaded successully from property File");
 			return url;
 		} else {
 			System.out.println("Loading "+ TestConstants.BASE_URI +" from property File is failed");
+			throw new RuntimeException(
+					"Application Url not specified in the Configuration.properties file for the Key:url");
+		}
+	}
+	
+	public String getLogFilePath() {
+		System.out.println("Loading "+ TestConstants.LOG_FILE_PATH +" from property File");
+		String url = propertyFileUtil.getPropertyValue(TestConstants.LOG_FILE_PATH);
+		if (url != null) {
+			System.out.println(TestConstants.LOG_FILE_PATH +" loaded successully from property File");
+			return url;
+		} else {
+			System.out.println("Loading "+ TestConstants.LOG_FILE_PATH +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
