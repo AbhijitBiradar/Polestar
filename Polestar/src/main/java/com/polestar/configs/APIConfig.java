@@ -5,7 +5,7 @@ import com.polestar.utils.PropertyFileUtil;
 
 public class APIConfig {		
 	PropertyFileUtil propertyFileUtil=new PropertyFileUtil();
-	private String propertyFilePath="C:\\Users\\Sony\\git\\Polestar\\Polestar\\src\\main\\resources\\Config\\APIConfig.properties";
+	private String propertyFilePath="C:\\Users\\Sony\\git\\Polestar\\Polestar\\src\\test\\resources\\Config\\APIConfig.properties";
 	
 	public APIConfig() {
 		propertyFileUtil.loadPropertyFile(propertyFilePath);
