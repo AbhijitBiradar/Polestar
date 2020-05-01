@@ -6,8 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features",plugin ="json:target/jsonReports/cucumber-report.json",glue= {"com.polestar.stepdefinitions"})
-
+@CucumberOptions(		
+        features = "src/test/resources/features",
+        glue = {"com.polestar.steps"},        
+        monochrome = true,
+        strict = true
+)
 public class TestRunner {
-//tags= {"@DeletePlace"}  compile test verify
 }

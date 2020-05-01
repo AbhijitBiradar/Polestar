@@ -1,4 +1,4 @@
-package com.polestar.stepdefinitions;
+package com.polestar.steps;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
