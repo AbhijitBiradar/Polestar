@@ -41,6 +41,6 @@ public class VerificationSteps extends BaseStep {
         IRestResponse<UserAccount> userAccountResponse = getEndPoints().getUserAccount(userId);
         Assert.assertEquals(200, userAccountResponse.getStatusCode());
 
-        Assert.assertEquals(0, userAccountResponse.getBody().books.size());
+        Assert.assertEquals(4, userAccountResponse.getBody().books.size());
 	}
 }
