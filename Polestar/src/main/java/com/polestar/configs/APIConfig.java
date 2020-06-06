@@ -7,15 +7,18 @@ public class APIConfig {
 	PropertyFileUtil propertyFileUtil=new PropertyFileUtil();
 	private String propertyFilePath="C:\\Users\\Sony\\git\\Polestar\\Polestar\\src\\test\\resources\\Config\\APIConfig.properties";
 	
+	private String uri;
+	private String logFilePath;
+	
 	public APIConfig() {
 		propertyFileUtil.loadPropertyFile(propertyFilePath);
 	}
-	public String getBaseURI() {
+	public String setBaseURI() {
 		System.out.println("Loading "+ TestConstants.BASE_URI +" from property File");
-		String url = propertyFileUtil.getPropertyValue(TestConstants.BASE_URI);
-		if (url != null) {
+		uri = propertyFileUtil.getPropertyValue(TestConstants.BASE_URI);
+		if (uri != null) {
 			System.out.println(TestConstants.BASE_URI +" loaded successully from property File");
-			return url;
+			return uri;
 		} else {
 			System.out.println("Loading "+ TestConstants.BASE_URI +" from property File is failed");
 			throw new RuntimeException(
@@ -23,18 +26,30 @@ public class APIConfig {
 		}
 	}
 	
-	public String getLogFilePath() {
+	public String setLogFilePath() {
 		System.out.println("Loading "+ TestConstants.LOG_FILE_PATH +" from property File");
-		String url = propertyFileUtil.getPropertyValue(TestConstants.LOG_FILE_PATH);
-		if (url != null) {
+		logFilePath = propertyFileUtil.getPropertyValue(TestConstants.LOG_FILE_PATH);
+		if (logFilePath != null) {
 			System.out.println(TestConstants.LOG_FILE_PATH +" loaded successully from property File");
-			return url;
+			return logFilePath;
 		} else {
 			System.out.println("Loading "+ TestConstants.LOG_FILE_PATH +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
+	} 
+	
+	public String getBaseURI() {
+		if(uri==null) {
+			setBaseURI();			
+		}		
+		return uri;
 	}
 	
-    
+	public String getLogFilePath() {
+		if(logFilePath==null) {
+			setLogFilePath();			
+		}
+		return logFilePath;
+	}
 }
