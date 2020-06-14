@@ -20,13 +20,13 @@ public class Hooks {
 		ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
 		configFileReader.loadAllConfigs();
 
+		// load previous test status from DB
+		DBUtil dbFileReader = DBReaderManager.getInstance().getDBReader();
+		ResultSet r = dbFileReader.selectDataFromDB("", "", "", "");
+
 		// Load TestData file
 		// TestDataFileReader testDataFileReader =FileReaderManager.getTestDataReader()
 		// testDataFileReader.loadTestDataFile();
-
-		// load test status from DB
-		DBUtil dbFileReader = DBReaderManager.getInstance().getDBReader();
-		ResultSet r = dbFileReader.selectDataFromDB("", "", "", "");
 	}
 
 	@Before
@@ -35,14 +35,13 @@ public class Hooks {
 		ConfigFileReader configFileReader = FileReaderManager.getInstance().getConfigReader();
 		configFileReader.loadAllConfigs();
 
-		// Load TestData file
-		// TestDataFileReader testDataFileReader =FileReaderManager.getTestDataReader()
-		// testDataFileReader.loadTestDataFile();
-
 		// load test status from DB
 		DBUtil dbFileReader = DBReaderManager.getInstance().getDBReader();
 		ResultSet r = dbFileReader.selectDataFromDB("", "", "", "");
 
+		// Load TestData file
+		// TestDataFileReader testDataFileReader =FileReaderManager.getTestDataReader()
+		// testDataFileReader.loadTestDataFile();
 	}
 
 	@After

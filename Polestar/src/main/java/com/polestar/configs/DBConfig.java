@@ -1,5 +1,6 @@
 package com.polestar.configs;
 
+import com.polestar.constants.Constants;
 import com.polestar.constants.TestConstant;
 import com.polestar.managers.FileReaderManager;
 import com.polestar.utils.PropertyFileUtil;
@@ -10,47 +11,48 @@ public class DBConfig {
 	private String dbPassword;
 	
 	PropertyFileUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath="C:\\Users\\Sony\\git\\Polestar\\Polestar\\src\\test\\resources\\Config\\APIConfig.properties";
+	private String propertyFilePath = System.getProperty("user.dir")
+			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
 	
 	
-	public DBConfig() {
-		propertyFileReader.loadPropertyFile(propertyFilePath);
+	public DBConfig() {		
+			propertyFileReader.loadPropertyFile(propertyFilePath);		
 	}
 	
 	public String setDBURL() {
-		System.out.println("Loading "+ TestConstant.BASE_URI +" from property File");
-		dbURL = propertyFileReader.getPropertyValue(TestConstant.BASE_URI);
+		System.out.println("Loading "+ Constants.dbConstant.DB_URL+" from property File");
+		dbURL = propertyFileReader.getPropertyValue(Constants.dbConstant.DB_URL);
 		if (dbURL != null) {
-			System.out.println(TestConstant.BASE_URI +" loaded successully from property File");
+			System.out.println(Constants.dbConstant.DB_URL +" loaded successully from property File");
 			return dbURL;
 		} else {
-			System.out.println("Loading "+ TestConstant.BASE_URI +" from property File is failed");
+			System.out.println("Loading "+ Constants.dbConstant.DB_URL +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}	
 	
 	public String setDBUserName() {
-		System.out.println("Loading "+ TestConstant.BASE_URI +" from property File");
-		dbUserName = propertyFileReader.getPropertyValue(TestConstant.BASE_URI);
+		System.out.println("Loading "+ Constants.dbConstant.DB_USER_NAME +" from property File");
+		dbUserName = propertyFileReader.getPropertyValue(Constants.dbConstant.DB_USER_NAME);
 		if (dbUserName != null) {
-			System.out.println(TestConstant.BASE_URI +" loaded successully from property File");
+			System.out.println(Constants.dbConstant.DB_USER_NAME +" loaded successully from property File");
 			return dbUserName;
 		} else {
-			System.out.println("Loading "+ TestConstant.BASE_URI +" from property File is failed");
+			System.out.println("Loading "+ Constants.dbConstant.DB_USER_NAME +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 	
 	public String setDBPassword() {
-		System.out.println("Loading "+ TestConstant.BASE_URI +" from property File");
-		dbPassword = propertyFileReader.getPropertyValue(TestConstant.BASE_URI);
+		System.out.println("Loading "+ Constants.dbConstant.DB_PASSWORD +" from property File");
+		dbPassword = propertyFileReader.getPropertyValue(Constants.dbConstant.DB_PASSWORD);
 		if (dbPassword != null) {
-			System.out.println(TestConstant.BASE_URI +" loaded successully from property File");
+			System.out.println(Constants.dbConstant.DB_PASSWORD +" loaded successully from property File");
 			return dbPassword;
 		} else {
-			System.out.println("Loading "+ TestConstant.BASE_URI +" from property File is failed");
+			System.out.println("Loading "+ Constants.dbConstant.DB_PASSWORD +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
