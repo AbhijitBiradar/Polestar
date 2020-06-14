@@ -12,12 +12,6 @@ public class ScreenshotConfig {
 	private String screenshotFilePath;
 
 	PropertyFileUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
-
-	public ScreenshotConfig() {
-		propertyFileReader.loadPropertyFile(propertyFilePath);
-	}
 
 	public String setCaptureScreenshot() {
 		System.out.println("Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File");

@@ -16,10 +16,16 @@ public class FileReaderManager {
 	}
 
 	public ConfigFileReader getConfigReader() {
-		return (configFileReader == null) ? new ConfigFileReader() : configFileReader;
+		if(configFileReader == null) {
+			configFileReader=new ConfigFileReader();
+		}
+		return configFileReader;
 	}
 	
 	public PropertyFileUtil getPropertyReader() {
-		return (propertyFileReader == null) ? new PropertyFileUtil() : propertyFileReader;
+		if(propertyFileReader == null) {
+			propertyFileReader=new PropertyFileUtil();
+		}
+		return propertyFileReader;
 	}
 }

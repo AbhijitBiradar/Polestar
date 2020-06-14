@@ -12,13 +12,7 @@ public class LogConfig {
 	private String createNewLogFile;
 	
 	PropertyFileUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Config\\APIConfig.properties";		
-	
-	public LogConfig() {
-		propertyFileReader.loadPropertyFile(propertyFilePath);
-	}
-	
+		
 	public String setLogFilePath() {
 		System.out.println("Loading "+ Constants.logConstant.LOG_FILE_PATH +" from property File");
 		logFilePath = propertyFileReader.getPropertyValue(Constants.logConstant.LOG_FILE_PATH);

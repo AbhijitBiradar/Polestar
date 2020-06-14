@@ -12,12 +12,6 @@ public class ReportConfig {
 	private String deletePreviousReport;
 	
 	PropertyFileUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Config\\APIConfig.properties";		
-	
-	public ReportConfig() {
-		propertyFileReader.loadPropertyFile(propertyFilePath);
-	}
 	
 	public String setGenerateReport() {
 		System.out.println("Loading "+ Constants.reportConstant.GENERATE_REPORT +" from property File");

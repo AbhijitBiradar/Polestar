@@ -11,14 +11,7 @@ public class DBConfig {
 	private String dbPassword;
 	
 	PropertyFileUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
-	
-	
-	public DBConfig() {		
-			propertyFileReader.loadPropertyFile(propertyFilePath);		
-	}
-	
+		
 	public String setDBURL() {
 		System.out.println("Loading "+ Constants.dbConstant.DB_URL+" from property File");
 		dbURL = propertyFileReader.getPropertyValue(Constants.dbConstant.DB_URL);

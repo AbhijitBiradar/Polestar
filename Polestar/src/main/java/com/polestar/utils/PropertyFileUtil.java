@@ -11,6 +11,12 @@ import java.util.Properties;
 public class PropertyFileUtil {
 	private Properties properties;
 	private Map<Object, Object> map;
+	private String propertyFilePath = System.getProperty("user.dir")
+			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
+
+	public PropertyFileUtil() {
+		loadPropertyFile(propertyFilePath);
+	}
 
 	public void loadPropertyFile(String propertyFilePath) {
 		System.out.println("Loading " + propertyFilePath + " Property File");
@@ -41,10 +47,10 @@ public class PropertyFileUtil {
 
 		String propertyValue = properties.getProperty(propertyName);
 		if (propertyValue != null) {
-			System.out.println("Property value loaded succesully for " + propertyName);			
+			System.out.println("Property value loaded succesully for " + propertyName);
 			return propertyValue;
 		} else {
-			System.out.println("Property value is not loaded succesully for " + propertyName);	
+			System.out.println("Property value is not loaded succesully for " + propertyName);
 			throw new RuntimeException(
 					"Property not specified in the specified properties file for the key" + propertyName);
 		}
@@ -52,12 +58,12 @@ public class PropertyFileUtil {
 
 	public Map<Object, Object> getAllPropertyValue() {
 		System.out.println("Loading all Property value initiated");
-		
+
 		Enumeration keys = properties.propertyNames();
 		while (keys.hasMoreElements()) {
 			String key = (String) keys.nextElement();
 			map.put(key, properties.getProperty(key));
-		}		
+		}
 		System.out.println("All Property value are loaded successfully");
 		return map;
 	}

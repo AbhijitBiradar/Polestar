@@ -12,13 +12,7 @@ public class TestConfig {
 	private String testEnvironment;
 
 	PropertyFileUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
-	private String propertyFilePath = System.getProperty("user.dir")
-			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
-
-	public TestConfig() {
-		propertyFileReader.loadPropertyFile(propertyFilePath);
-	}
-
+	
 	public String setDryRun() {
 		System.out.println("Loading " + Constants.testConstant.DRY_RUN + " from property File");
 		dryRun = propertyFileReader.getPropertyValue(Constants.testConstant.DRY_RUN);
