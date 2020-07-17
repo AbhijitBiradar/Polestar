@@ -9,13 +9,13 @@ import com.polestar.configs.ScreenshotConfig;
 import com.polestar.configs.TestConfig;
 
 public class ConfigFileReader {
-	APIConfig apiConfig = new APIConfig();
-	RunConfig runConfig = new RunConfig();
-	TestConfig testConfig = new TestConfig();
-	DBConfig dbConfig = new DBConfig();
-	LogConfig logConfig = new LogConfig();
-	ReportConfig reportConfig = new ReportConfig();
-	ScreenshotConfig screenshotConfig = new ScreenshotConfig();
+	private APIConfig apiConfig = new APIConfig();
+	private RunConfig runConfig = new RunConfig();
+	private TestConfig testConfig = new TestConfig();
+	private DBConfig dbConfig = new DBConfig();
+	private LogConfig logConfig = new LogConfig();
+	private ReportConfig reportConfig = new ReportConfig();
+	private ScreenshotConfig screenshotConfig = new ScreenshotConfig();
 
 	public void loadAPIConfig() {
 		apiConfig.setAllAPIConfig();
@@ -56,5 +56,14 @@ public class ConfigFileReader {
 		loadLogConfig();
 		loadReportConfig();
 		loadScreenshotConfig();
+	}
+	
+	
+	public APIConfig getAPIConfigInstance() {
+		return apiConfig;
+	}
+	
+	public DBConfig getDBConfigInstance() {
+		return dbConfig;
 	}
 }

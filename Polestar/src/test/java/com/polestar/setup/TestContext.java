@@ -2,10 +2,11 @@ package com.polestar.setup;
 
 import com.polestar.endpoints.Endpoint;
 import com.polestar.enums.Context;
+import com.polestar.managers.FileReaderManager;
 
-public class TestContext {
-	private final String BASE_URL = "http://bookstore.toolsqa.com";
-	private final String USER_ID = "9b5f49ab-eea9-45f4-9d66-bcf56a531b85";
+public class TestContext {	
+	private final String BASE_URL = FileReaderManager.getInstance().getConfigReader().getAPIConfigInstance().getBaseURI();	
+	private final String USER_ID = FileReaderManager.getInstance().getConfigReader().getAPIConfigInstance().getUserID();
 
 	private Endpoint endPoint;
 	private ScenarioContext scenarioContext;

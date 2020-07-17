@@ -7,6 +7,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
+import com.polestar.configs.DBConfig;
+
 public class DBUtil {
 	private Connection con;
 	private Statement statement;
@@ -14,15 +18,18 @@ public class DBUtil {
 	private String dbURL;
 	private String dbUserName;
 	private String dbPassword;
+	
+	final static Logger log = Logger.getLogger(DBUtil.class);
 
 	public void createDBConnection(String dbURL, String dbUserName, String dbPassword) {		
 		try {
-			System.out.println("Initializing datbase connection");
+			log.info("Initializing datbase connection");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(dbURL, dbUserName, dbPassword);
 			if (con != null) {
-				System.out.println("Connected to the database!");
+				log.info("Connected to the database!");
 			} else {
-				System.out.println("Failed to make connection!");
+				log.info("Failed to make connection!");
 			}
 		} catch (SQLException e) {
 			System.err.format("SQL State: %s\n%s", e.getSQLState(), e.getMessage());

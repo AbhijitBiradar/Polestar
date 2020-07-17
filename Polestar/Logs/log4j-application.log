@@ -1,0 +1,717 @@
+2020-06-29 09:16:10 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 09:16:10 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 09:16:10 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 09:16:10 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 09:16:10 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 09:16:10 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 09:16:10 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 09:16:10 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 09:16:10 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 09:16:10 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 09:16:10 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 09:16:10 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 09:16:10 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 09:16:10 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 09:16:10 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 09:16:10 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 09:16:10 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 09:16:10 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 09:16:10 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 09:16:10 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 09:16:10 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 09:16:10 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 09:16:10 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 09:16:10 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 09:16:10 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 09:16:10 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 09:16:10 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 09:16:10 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 09:16:10 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 09:16:10 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 09:16:10 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 09:16:10 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 09:16:10 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 09:16:10 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 09:16:10 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 09:16:10 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 09:16:10 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 09:16:10 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 09:16:10 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 09:16:15 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://bookstore.toolsqa.com:80
+2020-06-29 09:16:16 DEBUG DefaultClientConnection:180 - Connection org.apache.http.impl.conn.DefaultClientConnection@79c4715d closed
+2020-06-29 09:16:16 DEBUG DefaultClientConnection:164 - Connection org.apache.http.impl.conn.DefaultClientConnection@79c4715d shut down
+2020-06-29 09:16:16 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5aa360ea
+2020-06-29 17:30:48 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:30:49 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:30:49 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:30:49 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:30:49 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:30:49 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:30:49 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:30:49 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:30:49 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:31:18 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:31:43 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:31:43 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:31:43 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:31:43 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:31:43 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:31:43 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:31:43 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:31:43 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:31:43 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:31:43 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:31:43 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:31:43 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:31:43 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:31:43 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:31:43 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:31:43 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:31:43 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:31:43 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:31:43 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:31:43 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:31:43 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:31:43 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:31:43 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:31:43 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:31:43 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:31:43 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:31:43 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:31:43 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:31:43 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:31:43 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:31:43 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:31:43 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:31:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:31:43 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 17:32:23 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://bookstore.toolsqa.com:80
+2020-06-29 17:32:24 DEBUG DefaultClientConnectionOperator:177 - Connecting to bookstore.toolsqa.com:80
+2020-06-29 17:32:25 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-06-29 17:32:25 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-06-29 17:32:25 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2020-06-29 17:32:25 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-06-29 17:32:25 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-06-29 17:32:25 DEBUG DefaultClientConnection:274 - Sending request: POST /Account/v1/GenerateToken HTTP/1.1
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "POST /Account/v1/GenerateToken HTTP/1.1[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Content-Length: 50[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Host: bookstore.toolsqa.com[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  >> "[\r][\n]"
+2020-06-29 17:32:25 DEBUG headers:278 - >> POST /Account/v1/GenerateToken HTTP/1.1
+2020-06-29 17:32:25 DEBUG headers:281 - >> Accept: */*
+2020-06-29 17:32:25 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-06-29 17:32:25 DEBUG headers:281 - >> Content-Length: 50
+2020-06-29 17:32:25 DEBUG headers:281 - >> Host: bookstore.toolsqa.com
+2020-06-29 17:32:25 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-06-29 17:32:25 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+2020-06-29 17:32:25 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-06-29 17:32:25 DEBUG wire:87 -  >> "{"username":"TOOLSQA-Test","password":"Test@@123"}"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "HTTP/1.1 301 Moved Permanently[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Server: nginx/1.17.10 (Ubuntu)[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Date: Mon, 29 Jun 2020 12:02:20 GMT[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Content-Type: text/html[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Content-Length: 179[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "Location: https://bookstore.toolsqa.com/Account/v1/GenerateToken[\r][\n]"
+2020-06-29 17:32:25 DEBUG wire:73 -  << "[\r][\n]"
+2020-06-29 17:32:25 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 301 Moved Permanently
+2020-06-29 17:32:25 DEBUG headers:262 - << HTTP/1.1 301 Moved Permanently
+2020-06-29 17:32:25 DEBUG headers:265 - << Server: nginx/1.17.10 (Ubuntu)
+2020-06-29 17:32:25 DEBUG headers:265 - << Date: Mon, 29 Jun 2020 12:02:20 GMT
+2020-06-29 17:32:25 DEBUG headers:265 - << Content-Type: text/html
+2020-06-29 17:32:25 DEBUG headers:265 - << Content-Length: 179
+2020-06-29 17:32:25 DEBUG headers:265 - << Connection: keep-alive
+2020-06-29 17:32:25 DEBUG headers:265 - << Location: https://bookstore.toolsqa.com/Account/v1/GenerateToken
+2020-06-29 17:32:25 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-06-29 17:32:25 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html
+2020-06-29 17:32:25 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-06-29 17:34:40 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:34:40 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:34:40 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:34:40 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:34:40 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:34:40 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:34:40 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:34:40 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:34:40 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:35:08 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:35:14 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:35:14 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:35:14 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:35:14 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:35:14 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:35:14 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:35:14 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:35:14 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:35:14 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:35:14 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:35:14 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:35:14 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:35:14 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:35:14 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:35:14 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:35:14 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:35:14 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:35:14 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:35:14 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:35:14 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:35:14 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:35:14 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:35:14 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:35:14 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:35:14 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:35:14 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:35:14 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:35:14 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:35:14 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:35:14 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:35:14 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:35:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:35:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:35:14 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 17:37:32 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:37:32 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:37:32 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:37:32 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:37:32 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:37:32 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:37:32 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:37:32 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:37:32 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:37:44 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:38:07 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:38:07 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:38:07 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:38:07 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:38:07 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:38:07 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:38:07 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:38:07 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:38:07 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:38:07 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:38:07 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:38:07 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:38:07 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:38:07 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:38:07 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:38:07 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:38:07 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:38:07 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:38:07 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:38:07 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:38:07 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:38:07 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:38:07 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:38:07 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:38:07 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:38:07 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:38:07 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:38:07 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:38:07 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:38:07 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:38:07 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:38:07 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:38:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:38:07 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 17:40:28 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:40:28 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:40:28 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:40:28 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:40:28 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:40:28 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:40:28 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:40:28 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:40:28 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:41:23 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:41:29 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:41:29 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:41:29 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:41:29 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:41:29 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:41:29 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:41:29 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:41:29 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:41:29 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:41:29 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:41:29 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:41:29 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:41:29 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:41:29 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:41:29 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:41:29 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:41:29 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:41:29 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:41:29 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:41:29 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:41:29 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:41:29 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:41:29 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:41:29 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:41:29 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:41:29 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:41:29 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:41:29 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:41:29 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:41:29 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:41:29 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:41:29 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:41:29 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:41:29 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 17:46:06 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:46:06 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:46:07 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:46:07 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:46:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:46:07 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:46:07 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:46:07 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:46:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:46:14 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:46:14 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:46:14 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:46:14 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:46:14 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:46:14 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:46:14 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:46:14 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:46:14 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:46:14 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:46:14 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:46:14 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:46:14 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:46:14 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:46:14 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:46:14 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:46:14 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:46:14 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:46:14 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:46:14 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:46:14 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:46:14 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:46:14 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:46:14 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:46:14 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:46:14 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:46:14 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:46:14 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:46:14 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:46:14 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:46:14 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:46:14 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:46:14 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:46:14 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:46:14 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 17:58:57 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 17:58:58 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 17:58:58 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 17:58:58 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 17:58:58 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 17:58:58 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 17:58:58 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 17:58:58 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 17:58:58 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 17:59:02 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 17:59:02 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 17:59:02 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 17:59:02 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 17:59:02 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 17:59:02 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 17:59:02 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 17:59:02 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 17:59:02 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 17:59:02 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 17:59:02 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 17:59:02 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 17:59:02 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 17:59:02 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 17:59:02 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 17:59:02 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 17:59:02 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 17:59:02 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 17:59:02 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 17:59:02 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 17:59:02 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 17:59:02 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 17:59:02 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 17:59:02 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 17:59:02 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 17:59:02 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 17:59:02 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 17:59:02 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 17:59:02 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 17:59:02 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 17:59:02 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 17:59:02 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 17:59:02 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 17:59:02 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 17:59:02 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 18:05:07 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 18:05:07 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 18:05:07 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 18:05:07 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 18:05:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 18:05:07 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 18:05:07 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 18:05:07 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 18:05:07 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 18:05:15 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 18:05:19 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 18:05:19 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 18:05:19 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 18:05:19 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 18:05:19 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 18:05:19 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 18:05:19 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 18:05:19 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 18:05:19 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 18:05:19 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 18:05:19 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 18:05:19 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 18:05:19 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 18:05:19 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 18:05:19 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 18:05:19 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 18:05:19 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 18:05:19 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 18:05:19 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 18:05:19 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 18:05:19 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 18:05:19 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 18:05:19 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 18:05:19 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 18:05:19 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 18:05:19 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 18:05:19 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 18:05:19 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 18:05:19 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 18:05:19 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 18:05:20 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 18:05:20 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 18:05:20 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 18:05:20 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 18:05:20 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 18:05:20 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 18:05:20 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 18:05:20 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 18:07:30 INFO  PropertyFileUtil:25 - Loading C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.properties Property File
+2020-06-29 18:07:30 INFO  PropertyFileUtil:33 - Property File :C:\Users\Sony\git\Polestar\Polestar\src\test\resources\Config\APIConfig.propertiesloaded successfully !
+2020-06-29 18:07:30 INFO  APIConfig:16 - Loading api.baseURI from property File
+2020-06-29 18:07:30 INFO  PropertyFileUtil:49 - Loading Property value for api.baseURI
+2020-06-29 18:07:30 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.baseURI
+2020-06-29 18:07:30 INFO  APIConfig:19 - api.baseURI loaded successully from property File
+2020-06-29 18:07:30 INFO  APIConfig:36 - Loading api.userID from property File
+2020-06-29 18:07:30 INFO  PropertyFileUtil:49 - Loading Property value for api.userID
+2020-06-29 18:07:30 INFO  PropertyFileUtil:53 - Property value loaded succesully for api.userID
+2020-06-29 18:07:42 INFO  APIConfig:39 - api.userID loaded successully from property File
+2020-06-29 18:07:43 INFO  DBConfig:32 - Loading db.url from property File
+2020-06-29 18:07:43 INFO  PropertyFileUtil:49 - Loading Property value for db.url
+2020-06-29 18:07:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.url
+2020-06-29 18:07:43 INFO  DBConfig:35 - db.url loaded successully from property File
+2020-06-29 18:07:43 INFO  DBConfig:45 - Loading db.userName from property File
+2020-06-29 18:07:43 INFO  PropertyFileUtil:49 - Loading Property value for db.userName
+2020-06-29 18:07:43 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.userName
+2020-06-29 18:07:43 INFO  DBConfig:48 - db.userName loaded successully from property File
+2020-06-29 18:07:44 INFO  DBConfig:58 - Loading db.password from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for db.password
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.password
+2020-06-29 18:07:44 INFO  DBConfig:61 - db.password loaded successully from property File
+2020-06-29 18:07:44 INFO  DBConfig:19 - Loading db.driver from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for db.driver
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for db.driver
+2020-06-29 18:07:44 INFO  DBConfig:22 - db.driver loaded successully from property File
+2020-06-29 18:07:44 INFO  LogConfig:19 - Loading log.logFilePath from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for log.logFilePath
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.logFilePath
+2020-06-29 18:07:44 INFO  LogConfig:22 - log.logFilePath loaded successully from property File
+2020-06-29 18:07:44 INFO  LogConfig:32 - Loading log.generateLog from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for log.generateLog
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.generateLog
+2020-06-29 18:07:44 INFO  LogConfig:35 - log.generateLog loaded successully from property File
+2020-06-29 18:07:44 INFO  LogConfig:45 - Loading log.appendLog from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for log.appendLog
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.appendLog
+2020-06-29 18:07:44 INFO  LogConfig:48 - log.appendLog loaded successully from property File
+2020-06-29 18:07:44 INFO  LogConfig:58 - Loading log.createNewLogFile from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for log.createNewLogFile
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for log.createNewLogFile
+2020-06-29 18:07:44 INFO  LogConfig:61 - log.createNewLogFile loaded successully from property File
+2020-06-29 18:07:44 INFO  ReportConfig:19 - Loading report.generateReport from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for report.generateReport
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.generateReport
+2020-06-29 18:07:44 INFO  ReportConfig:22 - report.generateReport loaded successully from property File
+2020-06-29 18:07:44 INFO  ReportConfig:32 - Loading report.reportFilePath from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for report.reportFilePath
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportFilePath
+2020-06-29 18:07:44 INFO  ReportConfig:35 - report.reportFilePath loaded successully from property File
+2020-06-29 18:07:44 INFO  ReportConfig:45 - Loading report.reportType from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for report.reportType
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.reportType
+2020-06-29 18:07:44 INFO  ReportConfig:48 - report.reportType loaded successully from property File
+2020-06-29 18:07:44 INFO  ReportConfig:58 - Loading report.deletePreviousReport from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for report.deletePreviousReport
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for report.deletePreviousReport
+2020-06-29 18:07:44 INFO  ReportConfig:61 - report.deletePreviousReport loaded successully from property File
+2020-06-29 18:07:44 INFO  ScreenshotConfig:19 - Loading screenshot.captureScreenshot from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.captureScreenshot
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.captureScreenshot
+2020-06-29 18:07:44 INFO  ScreenshotConfig:22 - screenshot.captureScreenshot loaded successully from property File
+2020-06-29 18:07:44 INFO  ScreenshotConfig:34 - Loading screenshot.screenshotFileType from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFileType
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFileType
+2020-06-29 18:07:44 INFO  ScreenshotConfig:37 - screenshot.screenshotFileType loaded successully from property File
+2020-06-29 18:07:44 INFO  ScreenshotConfig:49 - Loading screenshot.screenshotType from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotType
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotType
+2020-06-29 18:07:44 INFO  ScreenshotConfig:52 - screenshot.screenshotType loaded successully from property File
+2020-06-29 18:07:44 INFO  ScreenshotConfig:63 - Loading screenshot.screenshotFilePath from property File
+2020-06-29 18:07:44 INFO  PropertyFileUtil:49 - Loading Property value for screenshot.screenshotFilePath
+2020-06-29 18:07:44 INFO  PropertyFileUtil:53 - Property value loaded succesully for screenshot.screenshotFilePath
+2020-06-29 18:07:44 INFO  ScreenshotConfig:66 - screenshot.screenshotFilePath loaded successully from property File
+2020-06-29 18:07:44 INFO  DBUtil:26 - Initializing datbase connection
+2020-06-29 18:07:49 INFO  DBUtil:30 - Connected to the database!

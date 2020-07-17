@@ -1,7 +1,8 @@
 package com.polestar.configs;
 
+import org.apache.log4j.Logger;
+
 import com.polestar.constants.Constants;
-import com.polestar.constants.TestConstant;
 import com.polestar.managers.FileReaderManager;
 import com.polestar.utils.PropertyFileUtil;
 
@@ -12,16 +13,17 @@ public class ScreenshotConfig {
 	private String screenshotFilePath;
 
 	PropertyFileUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
+	final static Logger log = Logger.getLogger(ScreenshotConfig.class);
 
 	public String setCaptureScreenshot() {
-		System.out.println("Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File");
+		log.info("Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File");
 		captureScreenshot = propertyFileReader.getPropertyValue(Constants.screenshotConstant.CAPTURE_SCREENSHOT);
 		if (captureScreenshot != null) {
-			System.out.println(
+			log.info(
 					Constants.screenshotConstant.CAPTURE_SCREENSHOT + " loaded successully from property File");
 			return captureScreenshot;
 		} else {
-			System.out.println(
+			log.info(
 					"Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
@@ -29,14 +31,14 @@ public class ScreenshotConfig {
 	}
 
 	public String setScreenshotFileType() {
-		System.out.println("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " from property File");
+		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " from property File");
 		screenshotFileType = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_FILE_TYPE);
 		if (screenshotFileType != null) {
-			System.out.println(
+			log.info(
 					Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " loaded successully from property File");
 			return screenshotFileType;
 		} else {
-			System.out.println(
+			log.info(
 					"Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
@@ -44,13 +46,13 @@ public class ScreenshotConfig {
 	}
 
 	public String setScreenshotType() {
-		System.out.println("Loading " + Constants.screenshotConstant.SCREENSHOT_TYPE + " from property File");
+		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_TYPE + " from property File");
 		screenshotType = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_TYPE);
 		if (screenshotType != null) {
-			System.out.println(Constants.screenshotConstant.SCREENSHOT_TYPE + " loaded successully from property File");
+			log.info(Constants.screenshotConstant.SCREENSHOT_TYPE + " loaded successully from property File");
 			return screenshotType;
 		} else {
-			System.out.println(
+			log.info(
 					"Loading " + Constants.screenshotConstant.SCREENSHOT_TYPE + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
@@ -58,14 +60,14 @@ public class ScreenshotConfig {
 	}
 
 	public String setScreenshotFilePath() {
-		System.out.println("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " from property File");
+		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " from property File");
 		screenshotFilePath = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_FILE_PATH);
 		if (screenshotFilePath != null) {
-			System.out.println(
+			log.info(
 					Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " loaded successully from property File");
 			return screenshotFilePath;
 		} else {
-			System.out.println(
+			log.info(
 					"Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");

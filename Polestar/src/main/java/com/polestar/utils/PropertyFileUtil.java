@@ -8,9 +8,12 @@ import java.util.Enumeration;
 import java.util.Map;
 import java.util.Properties;
 
+import org.apache.log4j.Logger;
+
 public class PropertyFileUtil {
 	private Properties properties;
 	private Map<Object, Object> map;
+	final static Logger log = Logger.getLogger(PropertyFileUtil.class);
 	private String propertyFilePath = System.getProperty("user.dir")
 			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
 
@@ -19,7 +22,7 @@ public class PropertyFileUtil {
 	}
 
 	public void loadPropertyFile(String propertyFilePath) {
-		System.out.println("Loading " + propertyFilePath + " Property File");
+		log.info("Loading " + propertyFilePath + " Property File");
 
 		BufferedReader reader = null;
 		try {
@@ -27,7 +30,7 @@ public class PropertyFileUtil {
 			properties = new Properties();
 			try {
 				properties.load(reader);
-				System.out.println("Property File :" + propertyFilePath + "loaded successfully !");
+				log.info("Property File :" + propertyFilePath + "loaded successfully !");
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -43,28 +46,28 @@ public class PropertyFileUtil {
 	}
 
 	public String getPropertyValue(String propertyName) {
-		System.out.println("Loading Property value for " + propertyName);
+		log.info("Loading Property value for " + propertyName);
 
 		String propertyValue = properties.getProperty(propertyName);
 		if (propertyValue != null) {
-			System.out.println("Property value loaded succesully for " + propertyName);
+			log.info("Property value loaded succesully for " + propertyName);
 			return propertyValue;
 		} else {
-			System.out.println("Property value is not loaded succesully for " + propertyName);
+			log.info("Property value is not loaded succesully for " + propertyName);
 			throw new RuntimeException(
 					"Property not specified in the specified properties file for the key" + propertyName);
 		}
 	}
 
 	public Map<Object, Object> getAllPropertyValue() {
-		System.out.println("Loading all Property value initiated");
+		log.info("Loading all Property value initiated");
 
 		Enumeration keys = properties.propertyNames();
 		while (keys.hasMoreElements()) {
 			String key = (String) keys.nextElement();
 			map.put(key, properties.getProperty(key));
 		}
-		System.out.println("All Property value are loaded successfully");
+		log.info("All Property value are loaded successfully");
 		return map;
 	}
 }
