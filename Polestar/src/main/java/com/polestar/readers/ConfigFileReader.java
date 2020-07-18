@@ -66,4 +66,13 @@ public class ConfigFileReader {
 	public DBConfig getDBConfigInstance() {
 		return dbConfig;
 	}
+	
+	public ReportConfig getReportConfigInstance() {
+		return reportConfig;
+	}
+	
+	public ScreenshotConfig getScreenshotConfigInstance() {
+		return screenshotConfig;
+	}
+	
 }

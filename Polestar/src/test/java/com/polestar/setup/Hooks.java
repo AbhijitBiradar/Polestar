@@ -1,5 +1,6 @@
 package com.polestar.setup;
 
+import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -7,11 +8,17 @@ import com.polestar.managers.DBReaderManager;
 import com.polestar.managers.FileReaderManager;
 import com.polestar.readers.ConfigFileReader;
 import com.polestar.utils.DBUtil;
+import com.polestar.utils.ReportUtil;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class Hooks {
+
+	private static ReportUtil reportUtil;
+	private static boolean isReporterRunning;
+
 	@Before
 	public void setup() {
 		// load config File
@@ -38,6 +45,29 @@ public class Hooks {
 		// Load TestData file
 		// TestDataFileReader testDataFileReader =FileReaderManager.getTestDataReader()
 		// testDataFileReader.loadTestDataFile();
+	}
+
+	@Before
+	public void beforeScenario() {
+		if (!isReporterRunning) {
+			reportUtil = new ReportUtil(System.getProperty("user.dir")
+					+ FileReaderManager.getInstance().getConfigReader().getReportConfigInstance().getReportFilePath());
+			isReporterRunning = true;
+		}
+	}
+
+	@After
+	public void afterScenario(Scenario scenario) throws IOException {
+		String screenshotFileName = System.getProperty("user.dir")
+				+ FileReaderManager.getInstance().getConfigReader().getScreenshotConfigInstance()
+						.getScreenshotFilePath()
+				+ scenario.getName().replaceAll(" ", "") + FileReaderManager.getInstance().getConfigReader()
+						.getScreenshotConfigInstance().getScreenshotFileType();
+		if (scenario.isFailed()) {
+			// write take screeenshot code here
+		}
+		reportUtil.createTest(scenario, screenshotFileName);
+		reportUtil.writeToReport();
 	}
 
 	@After
