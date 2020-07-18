@@ -2,10 +2,10 @@ package com.polestar.constants;
 
 public class Constants {
 	public static HeaderConstants headerConstants;
-	public static TestConstant testConstant;
-	public static APIConstant apiConstant;
-	public static DBConstant dbConstant;
-	public static LogConstant logConstant;
-	public static ReportConstant reportConstant;
-	public static ScreenshotConstant screenshotConstant;
+	public static TestConstants testConstant;
+	public static APIConstants apiConstant;
+	public static DBConstants dbConstant;
+	public static LogConstants logConstant;
+	public static ReportConstants reportConstant;
+	public static ScreenshotConstants screenshotConstant;
 }

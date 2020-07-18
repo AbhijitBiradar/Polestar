@@ -1,6 +1,6 @@
 package com.polestar.constants;
 
-public class ScreenshotConstant {
+public class ScreenshotConstants {
 	public static final String CAPTURE_SCREENSHOT="screenshot.captureScreenshot";
 	public static final String SCREENSHOT_FILE_TYPE="screenshot.screenshotFileType";
 	public static final String SCREENSHOT_TYPE="screenshot.screenshotType";
