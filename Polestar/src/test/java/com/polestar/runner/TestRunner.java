@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = {"com.polestar.steps", "com.polestar.setup"},        
         monochrome = true,
         strict = true
+        //plugin= {"html:/target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml","com.aventstack.extentreports.cucumber.adapter.ExtentCumcumberAdapter:"}
 )
 public class TestRunner {
 }
