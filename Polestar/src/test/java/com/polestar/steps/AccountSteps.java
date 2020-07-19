@@ -1,6 +1,6 @@
 package com.polestar.steps;
 
-import com.polestar.datatypes.AuthorizationRequest;
+import com.polestar.datatypes.requests.AuthorizationRequest;
 import com.polestar.setup.TestContext;
 
 import io.cucumber.java.en.Given;

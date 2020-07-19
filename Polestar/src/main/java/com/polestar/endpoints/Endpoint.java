@@ -2,9 +2,9 @@ package com.polestar.endpoints;
 
 import org.apache.http.HttpStatus;
 
-import com.polestar.datatypes.AddBooksRequest;
-import com.polestar.datatypes.AuthorizationRequest;
-import com.polestar.datatypes.RemoveBookRequest;
+import com.polestar.datatypes.requests.AddBooksRequest;
+import com.polestar.datatypes.requests.AuthorizationRequest;
+import com.polestar.datatypes.requests.RemoveBookRequest;
 import com.polestar.datatypes.responses.Books;
 import com.polestar.datatypes.responses.IRestResponse;
 import com.polestar.datatypes.responses.RestResponse;

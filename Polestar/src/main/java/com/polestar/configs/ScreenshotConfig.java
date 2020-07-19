@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 import com.polestar.constants.Constants;
 import com.polestar.managers.FileReaderManager;
-import com.polestar.utils.PropertyFileUtil;
+import com.polestar.utils.PropertyUtil;
 
 public class ScreenshotConfig {
 	private String captureScreenshot;
@@ -12,63 +12,63 @@ public class ScreenshotConfig {
 	private String screenshotType;
 	private String screenshotFilePath;
 
-	PropertyFileUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
+	PropertyUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
 	final static Logger log = Logger.getLogger(ScreenshotConfig.class);
 
 	public String setCaptureScreenshot() {
-		log.info("Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File");
-		captureScreenshot = propertyFileReader.getPropertyValue(Constants.screenshotConstant.CAPTURE_SCREENSHOT);
+		log.info("Loading " + Constants.screenshotConstants.CAPTURE_SCREENSHOT + " from property File");
+		captureScreenshot = propertyFileReader.getPropertyValue(Constants.screenshotConstants.CAPTURE_SCREENSHOT);
 		if (captureScreenshot != null) {
 			log.info(
-					Constants.screenshotConstant.CAPTURE_SCREENSHOT + " loaded successully from property File");
+					Constants.screenshotConstants.CAPTURE_SCREENSHOT + " loaded successully from property File");
 			return captureScreenshot;
 		} else {
 			log.info(
-					"Loading " + Constants.screenshotConstant.CAPTURE_SCREENSHOT + " from property File is failed");
+					"Loading " + Constants.screenshotConstants.CAPTURE_SCREENSHOT + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 
 	public String setScreenshotFileType() {
-		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " from property File");
-		screenshotFileType = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_FILE_TYPE);
+		log.info("Loading " + Constants.screenshotConstants.SCREENSHOT_FILE_TYPE + " from property File");
+		screenshotFileType = propertyFileReader.getPropertyValue(Constants.screenshotConstants.SCREENSHOT_FILE_TYPE);
 		if (screenshotFileType != null) {
 			log.info(
-					Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " loaded successully from property File");
+					Constants.screenshotConstants.SCREENSHOT_FILE_TYPE + " loaded successully from property File");
 			return screenshotFileType;
 		} else {
 			log.info(
-					"Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_TYPE + " from property File is failed");
+					"Loading " + Constants.screenshotConstants.SCREENSHOT_FILE_TYPE + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 
 	public String setScreenshotType() {
-		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_TYPE + " from property File");
-		screenshotType = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_TYPE);
+		log.info("Loading " + Constants.screenshotConstants.SCREENSHOT_TYPE + " from property File");
+		screenshotType = propertyFileReader.getPropertyValue(Constants.screenshotConstants.SCREENSHOT_TYPE);
 		if (screenshotType != null) {
-			log.info(Constants.screenshotConstant.SCREENSHOT_TYPE + " loaded successully from property File");
+			log.info(Constants.screenshotConstants.SCREENSHOT_TYPE + " loaded successully from property File");
 			return screenshotType;
 		} else {
 			log.info(
-					"Loading " + Constants.screenshotConstant.SCREENSHOT_TYPE + " from property File is failed");
+					"Loading " + Constants.screenshotConstants.SCREENSHOT_TYPE + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 
 	public String setScreenshotFilePath() {
-		log.info("Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " from property File");
-		screenshotFilePath = propertyFileReader.getPropertyValue(Constants.screenshotConstant.SCREENSHOT_FILE_PATH);
+		log.info("Loading " + Constants.screenshotConstants.SCREENSHOT_FILE_PATH + " from property File");
+		screenshotFilePath = propertyFileReader.getPropertyValue(Constants.screenshotConstants.SCREENSHOT_FILE_PATH);
 		if (screenshotFilePath != null) {
 			log.info(
-					Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " loaded successully from property File");
+					Constants.screenshotConstants.SCREENSHOT_FILE_PATH + " loaded successully from property File");
 			return screenshotFilePath;
 		} else {
 			log.info(
-					"Loading " + Constants.screenshotConstant.SCREENSHOT_FILE_PATH + " from property File is failed");
+					"Loading " + Constants.screenshotConstants.SCREENSHOT_FILE_PATH + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}

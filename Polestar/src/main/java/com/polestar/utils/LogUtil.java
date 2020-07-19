@@ -7,7 +7,7 @@ import java.io.PrintStream;
 import com.polestar.configs.APIConfig;
 import com.polestar.managers.FileReaderManager;
 
-public class LogFileUtil {
+public class LogUtil {
 	private static PrintStream printStream;
 	private static APIConfig apiConfig = new APIConfig();
 

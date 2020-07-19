@@ -21,7 +21,14 @@ public class ReportUtil {
 		extentHtmlReporter.config().setDocumentTitle("This is Document Title");
 		extentHtmlReporter.config().setEncoding("utf-8");
 		extentHtmlReporter.config().setReportName("This is Reporter Name");
-		extentsReports.attachReporter(extentHtmlReporter);				
+		extentsReports.attachReporter(extentHtmlReporter);	
+		
+		extentsReports.setSystemInfo("Hostname", "LocalHost");
+		extentsReports.setSystemInfo("OS", "Windows10");
+		extentsReports.setSystemInfo("Tester Name", "Abhijit Biradar");
+		extentsReports.setSystemInfo("Browser", "Chrome");
+		
+		
 	}
 	
 	public void takeScreenshot() {

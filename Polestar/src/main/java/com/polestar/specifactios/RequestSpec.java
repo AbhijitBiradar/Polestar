@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 
 import com.polestar.configs.APIConfig;
-import com.polestar.utils.LogFileUtil;
+import com.polestar.utils.LogUtil;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -17,7 +17,7 @@ public class RequestSpec {
 	public static APIConfig apiConfig= new APIConfig();		
 	
 	public static RequestSpecification requestSpecification() throws IOException {		
-			PrintStream logFile = LogFileUtil.getLogFile();
+			PrintStream logFile = LogUtil.getLogFile();
 			req = new RequestSpecBuilder().setBaseUri(apiConfig.getBaseURI()).addQueryParam("key", "qaclick123")
 					.addFilter(RequestLoggingFilter.logRequestTo(logFile))
 					.addFilter(ResponseLoggingFilter.logResponseTo(logFile)).setContentType(ContentType.JSON).build();

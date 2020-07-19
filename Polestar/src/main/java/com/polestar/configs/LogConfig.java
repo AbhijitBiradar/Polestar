@@ -4,7 +4,7 @@ import org.apache.log4j.Logger;
 
 import com.polestar.constants.Constants;
 import com.polestar.managers.FileReaderManager;
-import com.polestar.utils.PropertyFileUtil;
+import com.polestar.utils.PropertyUtil;
 
 public class LogConfig {		
 	private String logFilePath;
@@ -12,56 +12,56 @@ public class LogConfig {
 	private String appendLog;
 	private String createNewLogFile;
 	
-	PropertyFileUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
+	PropertyUtil propertyFileReader= FileReaderManager.getInstance().getPropertyReader();
 	final static Logger log = Logger.getLogger(LogConfig.class);
 		
 	public String setLogFilePath() {
-		log.info("Loading "+ Constants.logConstant.LOG_FILE_PATH +" from property File");
-		logFilePath = propertyFileReader.getPropertyValue(Constants.logConstant.LOG_FILE_PATH);
+		log.info("Loading "+ Constants.logConstants.LOG_FILE_PATH +" from property File");
+		logFilePath = propertyFileReader.getPropertyValue(Constants.logConstants.LOG_FILE_PATH);
 		if (logFilePath != null) {
-			log.info(Constants.logConstant.LOG_FILE_PATH +" loaded successully from property File");
+			log.info(Constants.logConstants.LOG_FILE_PATH +" loaded successully from property File");
 			return logFilePath;
 		} else {
-			log.info("Loading "+ Constants.logConstant.LOG_FILE_PATH +" from property File is failed");
+			log.info("Loading "+ Constants.logConstants.LOG_FILE_PATH +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 	
 	public String setGenerateLog() {
-		log.info("Loading "+ Constants.logConstant.GENERATE_LOG +" from property File");
-		generateLog = propertyFileReader.getPropertyValue(Constants.logConstant.GENERATE_LOG);
+		log.info("Loading "+ Constants.logConstants.GENERATE_LOG +" from property File");
+		generateLog = propertyFileReader.getPropertyValue(Constants.logConstants.GENERATE_LOG);
 		if (generateLog != null) {
-			log.info(Constants.logConstant.GENERATE_LOG +" loaded successully from property File");
+			log.info(Constants.logConstants.GENERATE_LOG +" loaded successully from property File");
 			return generateLog;
 		} else {
-			log.info("Loading "+ Constants.logConstant.GENERATE_LOG +" from property File is failed");
+			log.info("Loading "+ Constants.logConstants.GENERATE_LOG +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 	
 	public String setAppendLog() {
-		log.info("Loading "+ Constants.logConstant.APPEND_LOG +" from property File");
-		appendLog = propertyFileReader.getPropertyValue(Constants.logConstant.APPEND_LOG);
+		log.info("Loading "+ Constants.logConstants.APPEND_LOG +" from property File");
+		appendLog = propertyFileReader.getPropertyValue(Constants.logConstants.APPEND_LOG);
 		if (appendLog != null) {
-			log.info(Constants.logConstant.APPEND_LOG +" loaded successully from property File");
+			log.info(Constants.logConstants.APPEND_LOG +" loaded successully from property File");
 			return appendLog;
 		} else {
-			log.info("Loading "+ Constants.logConstant.APPEND_LOG +" from property File is failed");
+			log.info("Loading "+ Constants.logConstants.APPEND_LOG +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
 	}
 	
 	public String setCreateNewLogFile() {
-		log.info("Loading "+ Constants.logConstant.CREATE_NEW_LOG_FILE +" from property File");
-		createNewLogFile = propertyFileReader.getPropertyValue(Constants.logConstant.CREATE_NEW_LOG_FILE);
+		log.info("Loading "+ Constants.logConstants.CREATE_NEW_LOG_FILE +" from property File");
+		createNewLogFile = propertyFileReader.getPropertyValue(Constants.logConstants.CREATE_NEW_LOG_FILE);
 		if (createNewLogFile != null) {
-			log.info(Constants.logConstant.CREATE_NEW_LOG_FILE +" loaded successully from property File");
+			log.info(Constants.logConstants.CREATE_NEW_LOG_FILE +" loaded successully from property File");
 			return createNewLogFile;
 		} else {
-			log.info("Loading "+ Constants.logConstant.CREATE_NEW_LOG_FILE +" from property File is failed");
+			log.info("Loading "+ Constants.logConstants.CREATE_NEW_LOG_FILE +" from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}

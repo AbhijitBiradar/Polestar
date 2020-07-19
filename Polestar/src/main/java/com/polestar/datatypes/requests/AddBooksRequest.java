@@ -1,4 +1,4 @@
-package com.polestar.datatypes;
+package com.polestar.datatypes.requests;
 
 import java.util.ArrayList;
 import java.util.List;

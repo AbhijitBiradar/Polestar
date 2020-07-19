@@ -10,14 +10,14 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 
-public class PropertyFileUtil {
+public class PropertyUtil {
 	private Properties properties;
 	private Map<Object, Object> map;
-	final static Logger log = Logger.getLogger(PropertyFileUtil.class);
+	final static Logger log = Logger.getLogger(PropertyUtil.class);
 	private String propertyFilePath = System.getProperty("user.dir")
 			+ "\\src\\test\\resources\\Config\\APIConfig.properties";
 
-	public PropertyFileUtil() {
+	public PropertyUtil() {
 		loadPropertyFile(propertyFilePath);
 	}
 

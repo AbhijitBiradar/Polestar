@@ -4,22 +4,22 @@ import org.apache.log4j.Logger;
 
 import com.polestar.constants.Constants;
 import com.polestar.managers.FileReaderManager;
-import com.polestar.utils.PropertyFileUtil;
+import com.polestar.utils.PropertyUtil;
 
 public class APIConfig {
-	private PropertyFileUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
+	private PropertyUtil propertyFileReader = FileReaderManager.getInstance().getPropertyReader();
 	final static Logger log = Logger.getLogger(APIConfig.class);
 	private String baseURI;
 	private String userID;
 
 	public String setBaseURI() {		
-		log.info("Loading " + Constants.apiConstant.BASE_URI + " from property File");
-		baseURI = propertyFileReader.getPropertyValue(Constants.apiConstant.BASE_URI);
+		log.info("Loading " + Constants.apiConstants.BASE_URI + " from property File");
+		baseURI = propertyFileReader.getPropertyValue(Constants.apiConstants.BASE_URI);
 		if (baseURI != null) {
-			log.info(Constants.apiConstant.BASE_URI + " loaded successully from property File");
+			log.info(Constants.apiConstants.BASE_URI + " loaded successully from property File");
 			return baseURI;
 		} else {
-			log.info("Loading " + Constants.apiConstant.BASE_URI + " from property File is failed");
+			log.info("Loading " + Constants.apiConstants.BASE_URI + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}
@@ -33,13 +33,13 @@ public class APIConfig {
 	}
 
 	public String setUserID() {
-		log.info("Loading " + Constants.apiConstant.USER_ID + " from property File");
-		userID = propertyFileReader.getPropertyValue(Constants.apiConstant.USER_ID);
+		log.info("Loading " + Constants.apiConstants.USER_ID + " from property File");
+		userID = propertyFileReader.getPropertyValue(Constants.apiConstants.USER_ID);
 		if (userID != null) {
-			log.info(Constants.apiConstant.USER_ID + " loaded successully from property File");
+			log.info(Constants.apiConstants.USER_ID + " loaded successully from property File");
 			return userID;
 		} else {
-			log.info("Loading " + Constants.apiConstant.USER_ID + " from property File is failed");
+			log.info("Loading " + Constants.apiConstants.USER_ID + " from property File is failed");
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 		}

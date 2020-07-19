@@ -1,4 +1,4 @@
-package com.polestar.datatypes;
+package com.polestar.datatypes.requests;
 
 public class Book {
 	public String isbn;

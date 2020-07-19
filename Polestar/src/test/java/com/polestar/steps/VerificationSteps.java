@@ -2,7 +2,7 @@ package com.polestar.steps;
 
 import org.junit.Assert;
 
-import com.polestar.datatypes.Book;
+import com.polestar.datatypes.requests.Book;
 import com.polestar.datatypes.responses.IRestResponse;
 import com.polestar.datatypes.responses.UserAccount;
 import com.polestar.enums.Context;

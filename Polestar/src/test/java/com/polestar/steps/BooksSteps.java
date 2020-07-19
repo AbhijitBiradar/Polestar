@@ -1,9 +1,9 @@
 package com.polestar.steps;
 
-import com.polestar.datatypes.AddBooksRequest;
-import com.polestar.datatypes.Book;
-import com.polestar.datatypes.ISBN;
-import com.polestar.datatypes.RemoveBookRequest;
+import com.polestar.datatypes.requests.AddBooksRequest;
+import com.polestar.datatypes.requests.Book;
+import com.polestar.datatypes.requests.ISBN;
+import com.polestar.datatypes.requests.RemoveBookRequest;
 import com.polestar.datatypes.responses.Books;
 import com.polestar.datatypes.responses.IRestResponse;
 import com.polestar.datatypes.responses.UserAccount;

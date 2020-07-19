@@ -1,12 +1,12 @@
 package com.polestar.managers;
 
 import com.polestar.readers.ConfigFileReader;
-import com.polestar.utils.PropertyFileUtil;
+import com.polestar.utils.PropertyUtil;
 
 public class FileReaderManager {
 	private static FileReaderManager fileReaderManager = new FileReaderManager();
 	private static ConfigFileReader configFileReader;
-	private static PropertyFileUtil propertyFileReader;
+	private static PropertyUtil propertyFileReader;
 
 	private FileReaderManager() {
 	}
@@ -22,9 +22,9 @@ public class FileReaderManager {
 		return configFileReader;
 	}
 	
-	public PropertyFileUtil getPropertyReader() {
+	public PropertyUtil getPropertyReader() {
 		if(propertyFileReader == null) {
-			propertyFileReader=new PropertyFileUtil();
+			propertyFileReader=new PropertyUtil();
 		}
 		return propertyFileReader;
 	}

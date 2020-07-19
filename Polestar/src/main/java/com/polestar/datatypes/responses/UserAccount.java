@@ -2,7 +2,7 @@ package com.polestar.datatypes.responses;
 
 import java.util.List;
 
-import com.polestar.datatypes.Book;
+import com.polestar.datatypes.requests.Book;
 
 public class UserAccount {
 	public String userID;
